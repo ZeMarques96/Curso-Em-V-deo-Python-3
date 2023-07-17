@@ -1,0 +1,7 @@
+nome = str(input('Digite o seu nome: '))
+print(f'O seu nome em MAIÚSCULO é {nome.upper()}')
+print(f'O seu nome em MINÚSCULO é {nome.lower()}')
+senome = nome.replace(' ','')
+print(f'A Quantidade de letras do seu nome (sem contar espaços) é de : {len(senome)}')
+pnome = nome.split()
+print(f'O Primeiro nome digitado possui {len(pnome[0])} letras')
